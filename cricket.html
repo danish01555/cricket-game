@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>cricket game </title>
+    <link rel="stylesheet" href="cricket.css">
+    
+</head>
+<body>
+    <div>
+    <h1> <u>bat ball stump game</u></h1>
+    <button onclick="
+    const userChoiceMsg=('your have chosed bat');
+    let randomNumber=Math.random()*3;
+    let computerChoice;
+    if(randomNumber>0 && randomNumber<=1){
+         computerChoice='Bat';
+
+    }
+    else if
+       ( randomNumber>1 && randomNumber<=2){
+        computerChoice='Ball';
+
+        }
+    else{
+        computerChoice='Stump';
+    } 
+        
+    let result;
+    if(computerChoice==='Bat'){
+        result=('ITS TIE THE MATCH');
+    }
+    else if(computerChoice=='Ball'){
+        result=('YOU WON THE MATCH');
+    }
+    else{
+        result=('COMPUTER WON THE MATCH');
+    }
+    alert(`${userChoiceMsg} and the computer choice is ${computerChoice}
+    and ${result}`);
+    
+    
+    
+    
+    "> bat</button>
+    <button
+    onclick="
+     const userChoice='you have choosed ball';
+     let randomnumber=Math.random()*3;
+     let computer;
+     if(randomnumber>0 && randomnumber<=1){
+        computer='Bat';
+     }
+     else if(randomnumber>1 && randomnumber<=2){
+        computer='Ball';
+     }
+     else{
+        computer='Stump';
+     }
+     let resultb;
+     if(computer=='Bat'){
+        resultb='COMPUTER WON THE MATCH';
+     }
+     else if(computer=='Ball'){
+        resultb='ITS TIE THE MATCH';
+     }
+     else{
+        resultb='YOU WON THE MATCH';
+     }
+     alert(`${userChoice}  and the computer choice is ${computer} and ${resultb}`);
+    
+    
+    
+    
+    
+    
+    "> ball
+        
+    </button>
+    <button
+    onclick="
+    const Choice='you have choosed stump';
+     let random=Math.random()*3;
+     let comp;
+     if(random>0 && random<=1){
+        comp='Bat';
+     }
+     else if(random>1 && random<=2){
+        comp='Ball';
+     }
+     else{
+        comp='Stump';
+     }
+     let resultc;
+     if(comp=='Bat'){
+        
+        resultc='YOU WON THE MATCH';
+     }
+     else if(comp=='ball'){
+       resultc='COMPUTER WON THE MATCH';
+     }
+     else{
+        
+         resultc='ITS TIE THE MATCH';
+     }
+     alert(`${Choice}  and the computer choice is ${comp} and ${resultc}`);
+    
+    
+    
+    
+    
+    
+    "
+    
+    
+    
+    
+    
+    "
+    >stump</button>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
